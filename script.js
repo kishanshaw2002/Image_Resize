@@ -14,6 +14,7 @@ document.getElementById('image-input').addEventListener('change', function () {
         reader.readAsDataURL(file);
     } else {
         imageContainer.style.display = 'none';
+        
     }
 });
 
